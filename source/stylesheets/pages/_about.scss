@@ -22,12 +22,27 @@
     color: rgba(0,0,0,0.6);
   }
   a {
-    color: rgba(0,0,0,0.25);
+    color: $red;
     font-weight: bold;
     letter-spacing: -0.5px;
     font-size: 15px;
+    &:hover{
+    color: $blue;
+    }
   }
   .fa-heart {
-    color: #D23333;
+    color: $red;
+  }
+}
+
+.about{
+  a {
+    color: $white;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    &:hover{
+    color: $blue;
+    }
   }
 }
